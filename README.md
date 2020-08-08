@@ -5,4 +5,4 @@ I am trying to get artificial intelligence to play KnightMare. KM is upward-scro
 Files:
 1. prepare_screenshot.py - saves screenshots from the game
 
-[![](http://img.youtube.com/vi/bp6g2sioVEU/0.jpg)](http://www.youtube.com/watch?v=bp6g2sioVEU "prepare_screenshots.py")
+[![](http://img.youtube.com/vi/rr6Vq8WQgc0/0.jpg)](http://www.youtube.com/watch?v=rr6Vq8WQgc0 "prepare_screenshots.py")
