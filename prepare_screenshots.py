@@ -61,12 +61,7 @@ def rungame():
     time.sleep(8)  #wait until a game loads to the main menu
 
 def make_screenshot():
-    #from PIL import ImageGrab
-    #screen =  ImageGrab.grab(bbox=(0, 28, 800, 628))
-    
-    
-#    import pyautogui
-#    import win32gui
+
     window_title='DOSBox 0.74-2, Cpu speed:     3000 cycles, Frameskip  0, Program:     MYTH'
     hwnd = win32gui.FindWindow(None, window_title)
     if hwnd:
@@ -110,10 +105,7 @@ def save_screenshot(screenshot):
 
         cv2.imwrite(file_name_path, screenshot)
         
-        #save resized images
-        #resized_img_file_name_path = os.path.join(os.path.join(dir_name, 'small'),file_name)
-        #resized_img = img_resize(screenshot,50)
-        #cv2.imwrite(resized_img_file_name_path, resized_img)
+
 
 
 #%% SAVE SCREENSHOTS
